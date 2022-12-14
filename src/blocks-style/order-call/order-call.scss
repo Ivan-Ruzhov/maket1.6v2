@@ -95,6 +95,11 @@
     }
       &__link {
         color: $color-bloody;
+        transition: $transition-button;
+      }
+      &__link-hover:hover {
+        color: $color-gray;
+
       }
     &__input-submit {
       width: 136px;
@@ -112,6 +117,7 @@
       letter-spacing: -0.15px;
       margin: 0 16px 0 auto;
       transition: $transition-button;
+      cursor: pointer;
     }
     &__input-submit-hover:hover {
       @include opacity-button;

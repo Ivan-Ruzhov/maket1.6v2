@@ -79,6 +79,7 @@
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
+
       }
       &__input-name {
         margin-top: 24px;
@@ -90,7 +91,7 @@
       }
       &__info {
         width: 288px;
-        height: 64px;
+        height: 65px;
         font-size: 14px;
         line-height: 16px;
         color: $color-gray-light;
@@ -101,9 +102,14 @@
           margin: 0 32px 19px 31px;
         }
       }
+
         &__link {
-            color: $color-bloody;
+          color: $color-bloody;
+          transition: $transition-button;
           }
+        &__link-hover:hover {
+          color: $color-mint;
+        }
       &__input-submit {
         width: 136px;
         height: 32px;
@@ -120,6 +126,7 @@
         letter-spacing: -0.15px;
         margin: 0 16px 0 auto;
         transition: $transition-button;
+        cursor: pointer;
       }
       &__input-submit-hover:hover {
         @include opacity-button;
