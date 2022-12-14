@@ -29,6 +29,9 @@ body {
   border-bottom-right-radius: 1px;
 }
 
+.blur {
+  filter: blur(5px);
+}
 ::-webkit-input-placeholder{
   color: $color-gray;
 }
