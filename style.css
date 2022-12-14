@@ -1208,7 +1208,8 @@ body {
       .feedback__button-close {
         position: absolute;
         top: 15px;
-        right: 470px; } }
+        right: 470px;
+        z-index: 10; } }
   .feedback__button-close-hover:hover {
     transform: rotate(360deg);
     opacity: 0.5; }
@@ -1334,7 +1335,8 @@ body {
     transition: 0.5s ease-in;
     margin-top: 24px;
     margin-left: 16px;
-    padding: 0; }
+    padding: 0;
+    z-index: 10; }
     @media (min-width: 768px) {
       .order-call__button-close {
         position: absolute;
