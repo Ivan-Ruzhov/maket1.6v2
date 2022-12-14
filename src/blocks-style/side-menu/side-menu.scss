@@ -71,7 +71,7 @@
             align-items: center;
           }
             &__button-burger {
-              background: url("/../../img/button/burger-close.svg") no-repeat;
+              background: url("/img/button/burger-close.svg") no-repeat;
               width: 40px;
               height: 40px;
               margin-left: 24px;
@@ -97,7 +97,7 @@
               margin-right: 24px;
             }
               &__button-search {
-                background: url("/../../img/button/search.svg") no-repeat;
+                background: url("/img/button/search.svg") no-repeat;
                 width: 40px;
                 height: 40px;
                 transition: $transition-button;
@@ -148,7 +148,7 @@
             justify-content: space-evenly;
           }
             &__button-call {
-              background: url("/../../img/button/call.svg") no-repeat;
+              background: url("/img/button/call.svg") no-repeat;
               width: 40px;
               height: 40px;
               transition: $transition-button;
@@ -158,7 +158,7 @@
               @include opacity-button;
             }
             &__button-chat {
-              background: url("/../../img/button/chat.svg") no-repeat;
+              background: url("/img/button/chat.svg") no-repeat;
               width: 40px;
               height: 40px;
               transition: $transition-button;
@@ -168,7 +168,7 @@
               @include opacity-button;
             }
             &__button-profile {
-              background: url("/../../img/button/profile.svg") no-repeat;
+              background: url("/img/button/profile.svg") no-repeat;
               width: 40px;
               height: 40px;
               transition: $transition-button;

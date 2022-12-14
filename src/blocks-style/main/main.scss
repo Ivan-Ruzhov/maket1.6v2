@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  background: #F8F8F8;
+  background: $color-background;
   margin-left: auto;
   @media (min-width: 1120px) {
     max-width: 1120px;
@@ -39,7 +39,7 @@
       }
       &__name:before {
         content: "";
-        background: #41F6D7;
+        background: $color-mint;
         width: 4px;
         height: 40px;
         -webkit-border-top-right-radius: 4px;
@@ -80,7 +80,7 @@
       }
       &__button-repair {
         @media(min-width: 1440px) {
-          background: url("/../../img/button/repair.svg");
+          background: url("/img/button/repair.svg");
         }
       }
       &__button-repair:before {
@@ -97,7 +97,7 @@
       }
       &__button-checkstatus {
         @media(min-width: 1440px) {
-          background: url("/../../img/button/checkstatus.svg")
+          background: url("/img/button/checkstatus.svg")
         }
       }
       &__button-checkstatus:before {

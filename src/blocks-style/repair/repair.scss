@@ -138,7 +138,7 @@
             max-height: 160px;
             text-decoration: none;
             border-radius: 6px;
-            background: $color-white url("/../../img/links/go.svg") no-repeat 90% 90%;
+            background: $color-white url("/img/links/go.svg") no-repeat 90% 90%;
             padding: 16px 0 0 16px;
             @media(min-width: 768px) {
               flex-basis: 224px;
@@ -164,12 +164,12 @@
         position: absolute;
         top: 0;
         left: -14px;
-        content: url("/../../img/button-before/read.svg");
+        content: url("/img/button-before/read.svg");
       }
       &__btn-arrows-up:before {
         position: absolute;
         left: -14px;
-        content: url("/../../img/button-before/read.svg");
+        content: url("/img/button-before/read.svg");
         transform: rotate(180deg);
       }
       &__btn-hidden {
