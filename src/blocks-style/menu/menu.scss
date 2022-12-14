@@ -60,7 +60,7 @@
         @include opacity-button;
       }
       &__button-burger {
-        background-image: url("/img/button/burger.svg");
+        background-image: url("./../../img/button/burger.svg");
         margin-left: 16px;
         position: relative;
 
@@ -77,7 +77,7 @@
         }
       }
       &__button-repair {
-       background-image: url("/img/button/repair.svg");
+       background-image: url("./../../img/button/repair.svg");
         position: relative;
       }
       &__button-repair:before {
@@ -90,21 +90,21 @@
         left: -15px;
       }
       &__button-checkstatus {
-        background-image: url("/img/button/checkstatus.svg");
+        background-image: url("./../../img/button/checkstatus.svg");
       }
       &__button-call {
         @media(min-width: 768px) {
-          background-image: url("/img/button/call.svg");
+          background-image: url("./../../img/button/call.svg");
         }
       }
       &__button-chat {
         @media(min-width: 768px) {
-          background-image: url("/img/button/chat.svg")
+          background-image: url("./../../img/button/chat.svg")
         }
       }
       &__button-profile {
         @media(min-width: 768px) {
-          background-image: url("/img/button/profile.svg")
+          background-image: url("./../../img/button/profile.svg")
         }
       }
       &__link {
