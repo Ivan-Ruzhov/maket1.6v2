@@ -21,7 +21,7 @@
     }
       &__name {
         font-family: "TT Lakes Bold", serif;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 28px;
         margin-top: 24px;
         margin-left: 16px;
@@ -79,7 +79,7 @@
       }
       &__button-repair {
         @media(min-width: 1440px) {
-          background: url("./../../img/button/repair.svg");
+          background: url("../img/button/repair.svg");
         }
       }
       &__button-repair:before {
@@ -96,7 +96,7 @@
       }
       &__button-checkstatus {
         @media(min-width: 1440px) {
-          background: url("./../../img/button/checkstatus.svg")
+          background: url("../img/button/checkstatus.svg")
         }
       }
       &__button-checkstatus:before {

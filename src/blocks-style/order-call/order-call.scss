@@ -24,7 +24,7 @@
     &__button-close {
       width: 40px;
       height: 40px;
-      background: url("./../../img/button/burger-close.svg");
+      background: url("../img/button/burger-close.svg");
       transition: $transition-button;
       margin-top: 24px;
       margin-left: 16px;
@@ -106,7 +106,7 @@
       border-radius: 16px;
       padding-left: 16px;
       border: 1px solid $color-devider;
-      background: $color-bloody url("./../../img/button/dropdown.svg") no-repeat 90% 50%;
+      background: $color-bloody url("../img/button/dropdown.svg") no-repeat 90% 50%;
       color: $color-white;
       text-transform: uppercase;
       font-weight: 700;
