@@ -1,7 +1,7 @@
-let button = document.querySelector('.side-menu__button-chat');
-let buttonTwo = document.querySelector('.menu__button-chat');
-let elementHidden = document.querySelector('.feedback');
-let buttonClose = document.querySelector('.feedback__button-close');
+const button = document.querySelector('.side-menu__button-chat');
+const buttonTwo = document.querySelector('.menu__button-chat');
+const elementHidden = document.querySelector('.feedback');
+const buttonClose = document.querySelector('.feedback__button-close');
 button.addEventListener('click', function () {
   elementHidden.classList.remove('feedback-hidden')
 });

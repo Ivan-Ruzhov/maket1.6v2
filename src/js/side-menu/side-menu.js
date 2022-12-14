@@ -1,6 +1,6 @@
-let buttonMenu = document.querySelector('.menu__button-burger');
-let ButtonSideMenu = document.querySelector('.side-menu__button-burger')
-let sideMenu = document.querySelector('.side-menu');
+const buttonMenu = document.querySelector('.menu__button-burger');
+const ButtonSideMenu = document.querySelector('.side-menu__button-burger')
+const sideMenu = document.querySelector('.side-menu');
 
 buttonMenu.addEventListener('click', function() {
   sideMenu.classList.remove('side-menu-hidden')
