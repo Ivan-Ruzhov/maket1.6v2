@@ -573,6 +573,10 @@ body {
   position: relative;
   border-bottom-right-radius: 1px; }
 
+.blur {
+  -webkit-filter: blur(5px);
+          filter: blur(5px); }
+
 ::-webkit-input-placeholder {
   color: #B5B6BC; }
 
@@ -949,15 +953,13 @@ body {
 
 .side-menu {
   display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
+  flex-direction: row;
   width: 100%;
   height: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 3;
-  opacity: 0.96;
   mix-blend-mode: normal;
   background: #ffffff; }
   @media (min-width: 1440px) {
@@ -972,6 +974,17 @@ body {
       opacity: 1;
       flex-grow: 2;
       margin-left: auto; } }
+  .side-menu__overlay {
+    display: flex;
+    flex-basis: 1px;
+    height: 100%;
+    z-index: 4;
+    opacity: 0.96;
+    mix-blend-mode: normal;
+    flex-grow: 2; }
+    @media (min-width: 1440px) {
+      .side-menu__overlay {
+        display: none; } }
   .side-menu__main-container {
     font-family: "TT Lakes Medium", serif;
     font-size: 16px;
@@ -1159,8 +1172,6 @@ body {
   justify-content: flex-end;
   width: 100%;
   height: 100%;
-  mix-blend-mode: normal;
-  opacity: 0.96;
   z-index: 4;
   background: #F8F8F8;
   position: fixed;
@@ -1175,7 +1186,16 @@ body {
     @media (min-width: 768px) {
       .feedback__form-container {
         width: 440px;
-        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); } }
+        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+        border-left: 1px solid #41F6D7; } }
+  .feedback__overlay {
+    display: flex;
+    flex-basis: 1px;
+    height: 100%;
+    z-index: 4;
+    opacity: 0.96;
+    mix-blend-mode: normal;
+    flex-grow: 2; }
   .feedback__button-close {
     width: 40px;
     height: 40px;
@@ -1297,7 +1317,16 @@ body {
     @media (min-width: 768px) {
       .order-call__form-container {
         width: 440px;
-        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); } }
+        box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+        border-left: 1px solid #41F6D7; } }
+  .order-call__overlay {
+    display: flex;
+    flex-basis: 1px;
+    height: 100%;
+    z-index: 4;
+    opacity: 0.96;
+    mix-blend-mode: normal;
+    flex-grow: 2; }
   .order-call__button-close {
     width: 40px;
     height: 40px;
