@@ -24,6 +24,7 @@
     margin-left: auto;
   }
   &__overlay {
+    position: relative;
     display: flex;
     flex-basis: 1px;
     height: 100%;
