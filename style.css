@@ -624,7 +624,7 @@ body {
     display: flex;
     flex-basis: 1px;
     height: 100%;
-    z-index: 3;
+    z-index: 4;
     opacity: 0.96;
     mix-blend-mode: normal;
     flex-grow: 2; }
