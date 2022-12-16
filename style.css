@@ -1736,7 +1736,7 @@ body {
       .prices__button {
         position: static;
         text-align: center;
-        margin-left: 20px; } }
+        margin: auto 0 auto 20px; } }
   .prices__button-hover:hover {
     opacity: 0.5;
     transition: 1s; }
