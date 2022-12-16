@@ -1687,7 +1687,7 @@ body {
     margin-bottom: 16px; }
     @media (min-width: 768px) {
       .prices__repair-price-value {
-        width: 52px;
+        width: 74px;
         padding: 23px 0 0 16px;
         margin-bottom: 0; } }
     @media (min-width: 1120px) {
